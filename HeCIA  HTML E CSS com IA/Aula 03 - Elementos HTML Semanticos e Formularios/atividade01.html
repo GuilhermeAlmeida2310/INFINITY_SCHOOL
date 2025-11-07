@@ -1,0 +1,68 @@
+<!-- Crie uma página HTML simples que simule a estrutura básica de um site de notícias. Utilize
+as tags semânticas para organizar o conteúdo.
+Instruções:
+1.Cabeçalho (<header>): Crie um cabeçalho que contenha o nome do site (pode ser um título <h1>).
+2.Navegação (<nav>): Adicione uma barra de navegação simples dentro do cabeçalho, com links para diferentes seções do site (exemplo: Home, Notícias, Contato).
+3.Conteúdo Principal (<main>): Dentro da tag <main>, organize o conteúdo principal da página.
+a.Seção de Destaques (<section>): Crie uma seção destacada com um artigo principal.
+b.Artigos (<article>): Dentro da seção, adicione um artigo com título, subtítulo e texto.
+4.Barra Lateral (<aside>): Adicione uma barra lateral que contenha links para outros artigos ou
+anúncios.
+5.Rodapé (<footer>): Crie um rodapé para a página com informações de contato ou direitos autorais. -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jornal</title>
+</head>
+<body>
+    <header>
+        <h1>Jornal</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="https://www.poder360.com.br/">Notícias</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Notícias em Alta</h2>
+            
+            <article>
+                <h3>Notícia 1</h3>
+                <p>Aperte que aqui para ver a notícia</p>
+                <a href="https://www.poder360.com.br/poder-seguranca-publica rj-confirma-119-mortos-em-operacao-mais-letal-do-estado/">Leia mais</a>
+            </article>
+            
+            <article>
+                <h3>Notícia 2</h3>
+                <p>Aperte que aqui para ver a notícia</p>
+                <a href="https://www.poder360.com.br/poder-internacional/senado-dos-eua-aprova-fim-de-tarifas-ao-brasil-texto-vai-a-camara/">Leia mais</a>
+            </article>
+
+            <article>
+                <h3>Notícia 3</h3>
+                <p>Aperte que aqui para ver a notícia</p>
+                <a href="https://www.poder360.com.br/poder-seguranca-publica/99-investiga-tentativa-de-roubo-de-informacao-confidenciais/">Leia mais</a>
+            </article>
+        </section>
+
+        <aside>
+            <h3>Barra Lateral</h3>
+            <ul>
+                <li><a href="#">Artigo relacionado 1</a></li>
+                <li><a href="#">Artigo relacionado 2</a></li>
+            </ul>
+        </aside>
+    </main>
+
+    <footer>
+        <p>2025 Jornal - Temos todos os direitos armazenados</p>
+    </footer>
+</body>
+</html>

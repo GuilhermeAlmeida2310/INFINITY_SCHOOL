@@ -8,12 +8,14 @@ def menu_calculadora():
     print('4-) Dividir')
     print('5-) Sair')
 
+
 def somar():
     num1 = float(input('Digite um número: '))
     num2 = float(input('Digite um número: '))
     resultado = num1 + num2
     print(f'Resultado: {resultado}')
     return resultado
+
 
 def subtrair():
     num1 = float(input('Digite um número: '))
@@ -22,12 +24,14 @@ def subtrair():
     print(f'Resultado: {resultado}')
     return resultado
 
+
 def mult():
     num1 = float(input('Digite um número: '))
     num2 = float(input('Digite um número: '))
     resultado = num1 * num2
     print(f'Resultado: {resultado}')
     return resultado
+
 
 def dividir():
     num1 = float(input('Digite um número: '))
@@ -38,6 +42,7 @@ def dividir():
         resultado = num1 / num2
         print(f'Resultado: {resultado}')
         return resultado
+
 
 while True:
     menu_calculadora()
@@ -56,5 +61,3 @@ while True:
     else:
         print('Enrrando o programa. Até a próxima :)')
         break
-
-
